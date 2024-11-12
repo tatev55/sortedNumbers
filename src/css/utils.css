@@ -1,0 +1,36 @@
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.w-100px{
+    width: 100px;
+}
+
+.w-70px{
+    width: 70px;
+}
+
+
+.display-flex{
+    display: flex;
+}
+
+.jc-around{
+    justify-content: space-around;
+}
+.fd-column{
+    flex-direction: column;
+}
+
+.ai-center{
+    align-items: center;
+    
+}

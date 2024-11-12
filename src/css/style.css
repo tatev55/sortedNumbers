@@ -1,0 +1,44 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+   background-color: var(--bg-color);
+}
+
+.container{
+    height: 1200px;
+}
+
+.in-container-div{
+    height: 250px;
+    box-shadow: var(--box-shadow-1);
+    background-color: var(--bg-secondary-color);
+    text-align: center;
+   
+}
+
+.title{
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-5);
+}
+
+.button{
+    margin-left: var(--spacing-2);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 0;
+    padding: var(--spacing-1);
+    border-radius: 20px;
+}
+
+#clear-button, #clearSelectionButton, #clearInsertionButton,#clearMergeButton{
+    background-color: var(--secondary-color);
+}
+
+.error{
+    color: var(--red-color);
+    margin-top: var(--spacing-2);
+}
